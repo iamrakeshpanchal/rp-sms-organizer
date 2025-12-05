@@ -1,0 +1,35 @@
+
+        <!-- Bubble Activity -->
+        <activity
+            android:name=".BubbleActivity"
+            android:theme="@style/Theme.RPSMSOrg.Bubble"
+            android:exported="false"
+            android:allowEmbedded="true"
+            android:resizeableActivity="true"
+            android:supportsPictureInPicture="true"
+            android:launchMode="singleInstance">
+            <layout android:defaultHeight="200dp" android:defaultWidth="300dp" />
+        </activity>
+
+        <!-- Filter Settings Activity -->
+        <activity
+            android:name=".FilterSettingsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.RPSMSOrg" />
+
+        <!-- Backup Activity -->
+        <activity
+            android:name=".BackupActivity"
+            android:exported="false"
+            android:theme="@style/Theme.RPSMSOrg" />
+
+        <!-- SMS Preview Activity -->
+        <activity
+            android:name=".SmsPreviewActivity"
+            android:exported="false"
+            android:theme="@style/Theme.RPSMSOrg" />
+
+        <!-- Application Class -->
+        <application
+            android:name=".SMSOrganizerApp"
+            tools:replace="android:name">
